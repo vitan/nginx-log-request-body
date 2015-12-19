@@ -2,7 +2,7 @@
 
 ## how to use it
 
-1. start the container and echo the log forcely
+1. start nginx container and echo the log forcely
 
 ```bash
 docker logs -f `docker run -p 80:80 -d nginx-log-request-body:latest`
